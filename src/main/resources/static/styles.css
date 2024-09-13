@@ -1,0 +1,34 @@
+/* styles.css */
+
+/* Basic styling for the form */
+#userForm {
+    margin-top: 20px;
+}
+
+/* Styling for the user list */
+#userList .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#userList .btn {
+    margin-left: 10px;
+}
+/* styles.css */
+
+/* Basic styling for the form */
+#userForm {
+    margin-top: 20px;
+}
+
+/* Styling for the user list */
+#userList .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#userList .btn {
+    margin-left: 10px;
+}

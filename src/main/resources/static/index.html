@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SPA with Spring Boot</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4">User Management</h1>
+        <form id="userForm">
+            <div class="form-group">
+                <input type="text" id="name" class="form-control" placeholder="Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" class="form-control" placeholder="Email" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Add User</button>
+        </form>
+
+        <ul id="userList" class="list-group mt-4"></ul>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="main.js"></script>
+</body>
+</html>
